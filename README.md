@@ -58,6 +58,8 @@ names(TidyData)<-gsub("^f", "Frequency", names(TidyData))
 The_final_data <- TidyData %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
+  write.table(The_final_data, "The_final_data.txt", row.name=FALSE)
+
   ```
   
  ### Final Check
