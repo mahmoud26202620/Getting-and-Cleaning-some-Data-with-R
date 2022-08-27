@@ -11,9 +11,7 @@ library(tidyverse)
 ```
 ### downloading the data set
 
-here is the data link of the project
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+here is the data [link of the project](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ### reading the data
 ```
